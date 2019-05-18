@@ -2,7 +2,7 @@
 - Após instalar as dependencias use "react-native link" para linkar as dependencias nativas.
 - Para executar é necessário ter todo o ambiente de desenvolvimento configurado, Android Studio, JDK, etc..., segue link "https://facebook.github.io/react-native/docs/getting-started".
 - Antes de executar execute "cd android && gradlew clean && cd .. && react-native run-android" a partir do pasta do projeto.
-- Para executar o projeto em modo de debug use "react-native run-android", para ter melhor experiencia e performace com as animações execute "react-native run-android --variant=release".
+- Para executar o projeto em modo de debug use "react-native run-android", para ter melhor experiencia e performace com as animações execute "react-native run-android --variant=release", para executar em modo release é necessário ter uma signed key, segue o link com as instruções para gerar "https://facebook.github.io/react-native/docs/signed-apk-android".
 - Para realizar os testes use "yarn test" ou "npm test".
 
 - A .apk da versão de release se encontra no diretório root do projeto "app-release.apk".
